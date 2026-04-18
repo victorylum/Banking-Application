@@ -20,7 +20,7 @@ public class BankAccount {
     public void deposit(double amount)throws InvalidDepositException{
 
         if(amount<=49){
-            throw new InvalidDepositException("you can not deposit an amount greater than or equals to 49");
+            throw new InvalidDepositException("you can not deposit an amount less than or equals to 49");
         }else{
             balance+=amount;
             System.out.println("successful deposit");

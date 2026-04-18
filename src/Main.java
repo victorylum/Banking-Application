@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -10,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         BankAccount account=new BankAccount("Lum",685753349,500000);
-        account=new BankAccount("Joy", 943357586,300000);
+        //account=new BankAccount("Joy", 943357586,300000);
         int choice;
         while(true){
             System.out.println("Welcome to Tigha Bank");
